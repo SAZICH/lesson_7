@@ -1,0 +1,125 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,100&display=swap");
+body {
+    background-image: url(../img/mexico.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+h1 {
+    font-family: Bitter;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    color: rgba(253, 136, 27, 0.822);
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+    padding: 30px;
+    margin: 10px auto 30px;
+    max-width: 1300px;
+    border: 2px solid rgba(241, 148, 62);
+    border-radius: 10px;
+    background: linear-gradient(
+        0deg,
+        rgba(144, 252, 246, 0.7399334733893557) 5%,
+        rgba(254, 220, 107, 0.7091211484593838) 59%,
+        rgba(254, 255, 81, 0.7259278711484594) 100%
+    );
+    box-shadow: 1px 1px 5px 3px rgb(247, 247, 153);
+}
+.image {
+    display: block;
+    margin: 0px auto 30px;
+    border-radius: 10px;
+    width: 564px;
+    height: 401px;
+    box-shadow: 1px 1px 5px 3px rgb(247, 247, 153);
+}
+.comment {
+    font-family: Bitter;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    color: rgba(241, 148, 62);
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+    margin: 0px auto 30px;
+    max-width: 1300px;
+    padding: 20px 20px 60px 20px;
+    border: 2px solid rgba(241, 148, 62, 0.822);
+    border-radius: 10px;
+    background: rgba(194, 238, 240, 0.836) url(../img/cactus-clip-art-22.png) bottom / 50px repeat-x;
+    box-shadow: 1px 1px 5px 3px rgb(247, 247, 153);
+}
+ul.list {
+    font-family: Bitter;
+    font-weight: 100;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+}
+li {
+    display: inline-block;
+    padding: 20px 10px 10px 55px;
+    border: 2px solid rgba(241, 148, 62, 0.822);
+    box-shadow: 1px 1px 5px 3px rgb(247, 247, 153);
+    border-radius: 10px;
+    background: rgba(0, 252, 113, 0.836) url(../img/cactus-clip-art-22.png) 0 5px / 50px no-repeat;
+}
+h2 {
+    font-family: Bitter;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    color: rgba(253, 136, 27, 0.822);
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+    padding: 30px;
+    margin-bottom: 30px;
+    margin: 0px auto 30px;
+    max-width: 1250px;
+    border: 2px solid rgba(241, 148, 62);
+    border-radius: 10px;
+    background: linear-gradient(
+        0deg,
+        rgba(144, 252, 246, 0.7399334733893557) 5%,
+        rgba(254, 220, 107, 0.7091211484593838) 59%,
+        rgba(254, 255, 81, 0.7259278711484594) 100%
+    );
+    box-shadow: 1px 1px 5px 3px rgb(247, 247, 153);
+}
+[class*="text"] {
+    font-family: Bitter;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+    max-width: 1250px;
+    padding: 30px 30px 30px 50px;
+    margin: 0 auto 30px;
+    background: rgba(194, 238, 240, 0.836) url(../img/cactus-clip-art-22.png) 0 0 / 50px repeat-y;
+    border: 2px solid rgba(241, 148, 62, 0.822);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgb(247, 247, 153);
+}
+span {
+    font-family: Bitter;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+footer {
+    font-family: Bitter;
+    font-weight: 100;
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+    color: rgba(0, 252, 113, 1);
+}
